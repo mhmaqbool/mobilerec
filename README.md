@@ -1,6 +1,20 @@
 # mobilerec
 This repository contains the baselines for mobilerec dataset.
 
+# Data Fields
+|   **Feature**  |                                                                           **Description**                                                                          |
+|:--------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|       uid      | 16-characters alphanumeric uid represents a user uniquely. It also anonymizes the user.<br>Example: Aj0Sm6myfh6YN3Rn, 3pZUhksFIcLjEXtl, dvx0dqXTKtHUmY3O           |
+|   app_package  | Represents android package name of an application and uniquely identifies an application.<br>Example: com.google.android.calculator, com.king.crash, org.wikipedia |
+|    app_name    | Title of the app as displayed on Google Play. <br>Example: Candy Crush Saga, MONOPOLY - Classic Board Game                                                         |
+|     review     | Text review given by a user to an application                                                                                                                      |
+|     rating     | Numeric rating the user has given to an application.<br>Example: 5, 2, 1, 4                                                                                        |
+|      votes     | The number of users who found this review helpful.\\ Example: 1, ..., 6, ...                                                                                       |
+|      date      | The date of the specific user/item interaction, i.e., review date. <br>Example: October 21, 2018, November 4, 2021, January 16, 2021                               |
+|  formated_data | The date of the specific user/item interaction. (review date in YYYY-MM-DD format). <br>Example: 2018-10-21, 2021-11-04, 2021-01-16                                |
+| unix_timestamp | The review date converted into unix timestamp. <br>Example:1.540094e+09<br>	1.547788e+09, 1.610773e+09                                                              |
+|  app_category  | The category of the application.<br>Example: Action, Puzzle, Simulation, Role Playing                                                                              |
+
 # Results
 | Method Metric | Hit@1  | Hit@5  | Hit@10 | Hit@15 | Hit@20 | NDCG@5 | NDCG@10 | NDCG@15 | NDCG@20 |
 |---------------|--------|--------|--------|--------|--------|--------|---------|---------|---------|
