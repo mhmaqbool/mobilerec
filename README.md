@@ -24,6 +24,10 @@ English
 | unix_timestamp | The review date converted into unix timestamp. <br>Example:1.540094e+09<br>	1.547788e+09, 1.610773e+09                                                              |
 |  app_category  | The category of the application.<br>Example: Action, Puzzle, Simulation, Role Playing                                                                              |
 
+# Meta Data Fields
+Meta data contains several helpful features to augment the dataset which are 'app_package', 'app_name', 'developer_name', 'app_category',
+       'description', 'content_rating', 'num_reviews', 'price', 'avg_rating'
+
 # Results
 | Method Metric | Hit@1  | Hit@5  | Hit@10 | Hit@15 | Hit@20 | NDCG@5 | NDCG@10 | NDCG@15 | NDCG@20 |
 |---------------|--------|--------|--------|--------|--------|--------|---------|---------|---------|
