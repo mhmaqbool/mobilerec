@@ -1,5 +1,12 @@
 # mobilerec
 This repository contains the baselines for mobilerec dataset.
+# Requirements
+
+- Python 3.8 or above
+- RecBole 1.1.1
+- Pytorch
+
+
 
 # Data Fields
 |   **Feature**  |                                                                           **Description**                                                                          |
