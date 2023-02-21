@@ -1,12 +1,14 @@
 # mobilerec
-This repository contains the baselines for mobilerec dataset.
+This repository contains the baselines for mobilerec dataset. MobileRec is a large-scale app recommendation dataset. There are 19.3 million user\item interactions. This is a 5-core dataset. User\item interactions are sorted in ascending chronological order. There are 0.7 million users who have had at least five distinct interactions.There are 10173 apps in total.
+
 # Requirements
 
 - Python 3.8 or above
 - RecBole 1.1.1
 - Pytorch
 
-
+# Dataset Language
+English
 
 # Data Fields
 |   **Feature**  |                                                                           **Description**                                                                          |
